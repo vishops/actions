@@ -5,5 +5,9 @@ jobs:
   my-first-job:
     runs-on: ubuntu-latest
     steps:
+    - name: clone repo
+      uses: actions/checkout@v4
+    - name: list repo files
+      run: ls- lart
     - name: Print Hello World
       run: echo "Hello World"
