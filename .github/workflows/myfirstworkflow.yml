@@ -8,6 +8,6 @@ jobs:
     - name: clone repo
       uses: actions/checkout@v4
     - name: list repo files
-      run: ls- lart
+      run: ls -lart
     - name: Print Hello World
       run: echo "Hello World"
