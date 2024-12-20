@@ -2,7 +2,8 @@ name: myFirstWorkflow
 on:
   push
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-  - name: Print Hello World
-    run: echo "Hello World"
+  my-first-job:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Print Hello World
+      run: echo "Hello World"
